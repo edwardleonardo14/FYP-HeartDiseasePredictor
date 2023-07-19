@@ -11,7 +11,6 @@ import seaborn as sns
 sns.set(font_scale = 2)
 import missingno as msno
 
-from sklearn.svm import LinearSVC
 from sklearn.preprocessing import MinMaxScaler
 
 st.set_page_config(
@@ -40,13 +39,10 @@ with col2:
     heightUnit = st.selectbox("Height's unit", ["Centimeter", "Meter"])
     weightUnit = st.selectbox("Weight's unit", ["Kilogram", "Pounds"])
 
-col1, col2 = st.columns(2)
-with col1:
-    sleepTime = st.slider("In 24 Hours/a day, how long do you usually sleep for?", 0, 24)
-    genHealth = st.select_slider("How would you consider your current General Health?", ['Poor','Fair','Good','Very good','Excellent'])
-with col2:
-    physicalHealth = st.slider("How many days during the past 30 days you are experiencing bad physical health?", 0, 30)
-    mentalHealth = st.slider("How many days during the past 30 days you are experiencing bad mental health?", 0, 30)
+sleepTime = st.slider("In 24 Hours/a day, how long do you usually sleep for?", 0, 24)
+genHealth = st.select_slider("How would you consider your current General Health?", ['Poor','Fair','Good','Very good','Excellent'])
+physicalHealth = st.slider("How many days during the past 30 days you are experiencing bad physical health?", 0, 30)
+mentalHealth = st.slider("How many days during the past 30 days you are experiencing bad mental health?", 0, 30)
 
 col1, col2 = st.columns(2)
 with col1:
