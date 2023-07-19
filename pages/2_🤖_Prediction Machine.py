@@ -37,20 +37,24 @@ with col1:
     weight = st.number_input("Enter your body weight", min_value=0.0)
 
 with col2:
-    heightUnit = st.selectbox("Unit of Measurement", ["Centimeter", "Meter"])
-    weightUnit = st.selectbox("Unit of Measurement", ["Kilogram", "Pounds"])
+    heightUnit = st.selectbox("Unit of Measurement of Height", ["Centimeter", "Meter"])
+    weightUnit = st.selectbox("Unit of Measurement of Weight", ["Kilogram", "Pounds"])
 
 col1, col2 = st.columns(2)
 with col1:
     sleepTime = st.slider("In 24 Hours/a day, how long do you usually sleep for?", 0, 24)
+    genHealth = st.select_slider("How would you consider your current General Health?", ['Poor','Fair','Good','Very good','Excellent'])
+with col2:
     physicalHealth = st.slider("How many days during the past 30 days you are experiencing bad physical health?", 0, 30)
+    mentalHealth = st.slider("How many days during the past 30 days you are experiencing bad mental health?", 0, 30)
+
+col1, col2 = st.columns(2)
+with col1:
     smoking = st.radio("Have you ever smoked 100 Cigarettes in your entire life?", ("Yes", "No"))
     diffWalking = st.radio("Do you have difficulty walking or climbing stairs?", ("Yes", "No"))
     skinCancer = st.radio("Have you ever had/are you currently suffering from Skin Cancer?", ("Yes","No"))
     diabetic = st.radio("Have you ever had/are you currently suffering from diabetes?)", ("Yes","Yes (during pregnancy)","No", "No, borderline diabetes"))
 with col2:
-    genHealth = st.select_slider("How would you consider your current General Health?", ['Poor','Fair','Good','Very good','Excellent'])
-    mentalHealth = st.slider("How many days during the past 30 days you are experiencing bad mental health?", 0, 30)
     stroke = st.radio("Have you ever suffered from a stroke?", ("Yes","No"))
     asthma = st.radio("Have you ever had/are you currently suffering from Asthma?", ("Yes","No"))
     kidneyDisease = st.radio("Have you ever had/are you currently suffering from Kidney Disease?", ("Yes","No"))
