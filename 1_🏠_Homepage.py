@@ -52,7 +52,7 @@ To Learn More about the Project, Click the links below
 
 1. [Project Report in PDF](link-to-project-report-pdf)
 
-2. [GitHub Repository of the Project](link-to-github-repository)
+2. [GitHub Repository of the Project](https://github.com/edwardleonardo14/FYP-HeartDiseasePredictor)
 """)
 
 st.write("---")

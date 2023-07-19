@@ -226,7 +226,7 @@ if st.button("Predict"):
             st.write("- Try to increase your **Physical Activity** amount by Exercising or doing Sports.")
         if alcohol:
             st.write("- Try to limit or stop **Drinking Alcohol.**")
-        if (BMI >= 18.5 or BMI <= 25) and sleepTime >= 7 and (genHealthVeryGood or genHealthExcellent) and physicalActivity and physicalHealth < 10 and mentalHealth < 10 and smoking == 0 and diffWalking == 0 and diabeticNo and alcohol == 0:
+        elif (BMI >= 18.5 and BMI <= 25) and sleepTime >= 7 and (genHealthVeryGood or genHealthExcellent) and physicalActivity and physicalHealth < 10 and mentalHealth < 10 and smoking == 0 and diffWalking == 0 and diabeticNo and alcohol == 0:
             st.write("- Nothing here. Keep up your healthy lifestyle!")
 
     else:
