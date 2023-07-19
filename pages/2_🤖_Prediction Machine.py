@@ -37,8 +37,8 @@ with col1:
     weight = st.number_input("Enter your body weight", min_value=0.0)
 
 with col2:
-    heightUnit = st.selectbox("Unit of Measurement of Height", ["Centimeter", "Meter"])
-    weightUnit = st.selectbox("Unit of Measurement of Weight", ["Kilogram", "Pounds"])
+    heightUnit = st.selectbox("Height's unit", ["Centimeter", "Meter"])
+    weightUnit = st.selectbox("Weight's unit", ["Kilogram", "Pounds"])
 
 col1, col2 = st.columns(2)
 with col1:
