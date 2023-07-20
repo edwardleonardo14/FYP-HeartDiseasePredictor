@@ -251,75 +251,81 @@ elif selected_choice == "DiffWalking":
 ## Difficulty Walking
 
 Difficulty Walking can be a non-direct cause of Coronary Artery Disease (CAD). Maybe due to other health problems, but Difficulty Walking or Climbing Stair
-Individuals may have a more difficult time to do physical activity
+Individuals may have a more difficult time to do physical activity.
 
-**.**
+**From the chart above, it shows that people with Difficulty Walking have a high risk of developing CAD also.**
       
-[Learn More]()
+[Learn More](https://www.cdc.gov/heartdisease/risk_factors.htm)
 
 """)
 elif selected_choice == "Sex":
     st.write("""
 ## Gender
 
-.
+Gender may have an effect towards the risk of Coronary Artery Disease (CAD). This can be due to Hormones differences, Cholestrol buildup, different body fat location,
+and stress.
 
-**.**
+**From the chart above, it shows that Male have a higher risk of CAD compared to Female.**
       
-[Learn More]()
+[Learn More](https://www.louisianaheart.org/blog/do-men-have-a-higher-risk-for-heart-disease#:~:text=That%20said%2C%20men%20have%20larger,found%20in%20smaller%20blood%20vessels.)
 
 """)
 elif selected_choice == "PhysicalActivity":
     st.write("""
 ## Physical Activity
 
-.
+Physical Activity is one of the most commont way known to reduce the risk of Coronary Artery Disease. Physical Activity can be in a form of Sports or normal Exercise.
+It is recommended for adults to get 2.5 hours of physical exercise per week, and 1 hour for children/adolescents.
 
-**.**
+**From the chart above, it shows that people that does Physical Activity has a lower risk of CAD.**
       
-[Learn More]()
+[Learn More](https://www.nhs.uk/conditions/coronary-heart-disease/prevention/)
 
 """)
 elif selected_choice == "SleepTime":
     st.write("""
 ## Sleep Time
 
-.
+Sleep amount per day may not have a big effect towards Coronary Artery Disease (CAD) directly, but sleeping disorder, such as insomnia, is linked to causes
+high blood pressure, high stress level, and unhealtier lifestyle in a long-term, which are risk factors that can causes CAD.
 
-**.**
+**From the chart above, Sleep Amount cannot be definitely identified as a risk factors towards CAD. But, due to the long-term effect, a healthy, 7-9 hours of sleep
+each day is recommended**
       
-[Learn More]()
+[Learn More](http://www.eurekaselect.com/article/15831)
 
 """)
 elif selected_choice == "Asthma":
     st.write("""
 ## Asthma
 
-.
+Asthma may not directly caused Coronary Artery Disease (CAD), but Asthma is still known to causes inflammatories all around the body, including the blood vessels.
+This inflammation may causes a long-term damages towards the blood vessels, thus increasing the risk of High Blood Pressure, leading to CAD.
 
-**.**
+**From the chart above, It shows that people with Asthma has a higher risk of CAD.**
       
-[Learn More]()
+[Learn More](https://www.healthcentral.com/condition/asthma/how-asthma-and-heart-disease-are-connected)
 
 """)
 elif selected_choice == "KidneyDisease":
     st.write("""
 ## Kidney Disease
 
-.
+Kidney Disease is known to boost the risk factors of Coronary Artery Disease (CAD). This includes diabetes, hypertension, and inflammation.
 
-**.**
+**From the chart above, it shows that people with Kidney Disease has a higher risk of CAD.**
       
-[Learn More]()
+[Learn More](https://linkinghub.elsevier.com/retrieve/pii/S0735109719373905)
 
 """)
 elif selected_choice == "SkinCancer":
     st.write("""
 ## Skin Cancer
 
-.
+Skin Cancer may not directly be the cause of Coronary Artery Disease (CAD), but the tumor that is associated with Skin Cancer can spread around through metastatis
+to other internal organ, such as the Heart, which can causes Heart Diseases such as Arrhythmia and Heart Failure.
 
-**.**
+**From the chart above, it shows that people with Skin Cancer has a slightly higher risk of CAD.**
       
 [Learn More]()
 
@@ -328,21 +334,20 @@ elif selected_choice == "Race":
     st.write("""
 ## Race
 
-.
-
-**.**
+Race may have an effect towards Coronary Artery Disease (CAD). This can be caused due to cultural differences, lifestyle differences, and higher risks towards
+specific risk factors. Social problems such as ethnicity or racism can also cause higher stress level. All of these factors are depedant on where the Person live,
+and how the culture they grew up in.
       
-[Learn More]()
+[Learn More](https://www.ahajournals.org/doi/full/10.1161/CIRCOUTCOMES.121.007917#:~:text=Black%20adults%20experience%20higher%20burden,CVD%2C%20relative%20to%20White%20adults.&text=Similarly%2C%20American%20Indian%20individuals%20are,compared%20with%20the%20White%20population.)
 
 """)
 elif selected_choice == "GenHealth":
     st.write("""
 ## General Health
 
-.
+General Health is one of the indicators a person can use to measure their current health status. As your general health condition worsen, your risk of Coronary Artery
+Disease (CAD) may increases as well.
 
-**.**
-      
-[Learn More]()
+**From the chart above, it shows that as people's general health worsen, their risk of CAD will get higher.**
 
 """)
