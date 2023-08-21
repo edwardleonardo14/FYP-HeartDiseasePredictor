@@ -44,16 +44,16 @@ st.write("""
 
 """)
 
-# st.write("---")
+st.write("---")
 
-# st.write("""
-# ## Learn More 🤓
-# To Learn More about the Project, Click the links below
+st.write("""
+## Learn More 🤓
+To Learn More about the Project, Click the links below
 
-# 1. [Project Report in PDF](link-to-project-report-pdf)
+1. [Project Report in PDF](https://drive.google.com/file/d/13g4Zuz2PwJAjRlEhrKWDbO7So5PpTrur/view?usp=drive_link)
 
-# 2. [GitHub Repository of the Project](https://github.com/edwardleonardo14/FYP-HeartDiseasePredictor)
-# """)
+2. [GitHub Repository of the Project](https://github.com/edwardleonardo14/FYP-HeartDiseasePredictor)
+""")
 
 st.write("---")
 
