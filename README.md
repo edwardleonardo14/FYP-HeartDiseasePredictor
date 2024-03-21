@@ -6,4 +6,4 @@ The project is fully done using Python Programming Language, with Jupyter Notebo
 
 The code, The documentation, and the dataset are all included.
 
-The Result is have not shared yet, but the provisional sheet is filled with "Satisfactory" result by my Supervisor and 2nd Marker.
+The provisional sheet is filled with "Satisfactory" result by Supervisor and 2nd Marker. The result of the Project is A+.
